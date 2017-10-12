@@ -1,0 +1,8 @@
+Django==1.11.4
+django-ckeditor==5.2.2
+django-cors-headers==2.1.0
+django-js-asset==0.1.1
+djangorestframework==3.6.4
+olefile==0.44
+Pillow==4.2.1
+pytz==2017.2

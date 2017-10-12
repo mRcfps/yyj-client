@@ -1,0 +1,541 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../web/cart/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../web/orders/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../web/shop/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170824_1042.py	../web/shop/migrations/0002_auto_20170824_1042.py	1;"	kind:file	line:1
+0002_auto_20170902_1500.py	../web/cart/migrations/0002_auto_20170902_1500.py	1;"	kind:file	line:1
+0002_order_order_id.py	../web/orders/migrations/0002_order_order_id.py	1;"	kind:file	line:1
+0003_auto_20170824_1534.py	../web/shop/migrations/0003_auto_20170824_1534.py	1;"	kind:file	line:1
+0003_auto_20170828_1539.py	../web/orders/migrations/0003_auto_20170828_1539.py	1;"	kind:file	line:1
+0004_auto_20170828_1548.py	../web/orders/migrations/0004_auto_20170828_1548.py	1;"	kind:file	line:1
+0004_auto_20170830_1009.py	../web/shop/migrations/0004_auto_20170830_1009.py	1;"	kind:file	line:1
+0005_auto_20170831_1622.py	../web/shop/migrations/0005_auto_20170831_1622.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../web/yunyanjin/settings.py	/^ALLOWED_HOSTS = ['*']$/;"	kind:variable	line:28
+APIClient	../web/cart/tests.py	/^from rest_framework.test import APITestCase, APIClient$/;"	kind:namespace	line:5
+APIClient	../web/shop/tests.py	/^from rest_framework.test import APITestCase, APIClient$/;"	kind:namespace	line:1
+APITestCase	../web/cart/tests.py	/^from rest_framework.test import APITestCase, APIClient$/;"	kind:namespace	line:5
+APITestCase	../web/shop/tests.py	/^from rest_framework.test import APITestCase, APIClient$/;"	kind:namespace	line:1
+APIView	../web/orders/views.py	/^from rest_framework.views import APIView$/;"	kind:namespace	line:4
+APIView	../web/shop/views.py	/^from rest_framework.views import APIView$/;"	kind:namespace	line:2
+APIView	../web/users/views.py	/^from rest_framework.views import APIView$/;"	kind:namespace	line:10
+AUTH_PASSWORD_VALIDATORS	../web/yunyanjin/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:99
+AddToCartView	../web/shop/views.py	/^class AddToCartView(APIView):$/;"	kind:class	line:42
+AllowAny	../web/shop/views.py	/^from rest_framework.permissions import AllowAny$/;"	kind:namespace	line:4
+AllowAny	../web/users/views.py	/^from rest_framework.permissions import AllowAny$/;"	kind:namespace	line:8
+AppConfig	../web/cart/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../web/orders/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../web/shop/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../web/users/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AuthTokenSerializer	../web/users/views.py	/^from rest_framework.authtoken.serializers import AuthTokenSerializer$/;"	kind:namespace	line:6
+BASE_DIR	../web/yunyanjin/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CORS_ORIGIN_ALLOW_ALL	../web/yunyanjin/settings.py	/^CORS_ORIGIN_ALLOW_ALL = True$/;"	kind:variable	line:161
+CancelOrderView	../web/orders/views.py	/^class CancelOrderView(APIView):$/;"	kind:class	line:69
+Cart	../web/cart/models.py	/^class Cart(models.Model):$/;"	kind:class	line:5
+Cart	../web/cart/tests.py	/^from cart.models import Cart, CartEntry$/;"	kind:namespace	line:8
+Cart	../web/cart/views.py	/^from cart.models import Cart, CartEntry$/;"	kind:namespace	line:3
+Cart	../web/shop/views.py	/^from cart.models import Cart, CartEntry$/;"	kind:namespace	line:10
+CartConfig	../web/cart/apps.py	/^class CartConfig(AppConfig):$/;"	kind:class	line:4
+CartEntry	../web/cart/models.py	/^class CartEntry(models.Model):$/;"	kind:class	line:14
+CartEntry	../web/cart/serializers.py	/^from cart.models import CartEntry$/;"	kind:namespace	line:3
+CartEntry	../web/cart/tests.py	/^from cart.models import Cart, CartEntry$/;"	kind:namespace	line:8
+CartEntry	../web/cart/views.py	/^from cart.models import Cart, CartEntry$/;"	kind:namespace	line:3
+CartEntry	../web/shop/views.py	/^from cart.models import Cart, CartEntry$/;"	kind:namespace	line:10
+CartEntryEditSerializer	../web/cart/serializers.py	/^class CartEntryEditSerializer(serializers.ModelSerializer):$/;"	kind:class	line:27
+CartEntryEditSerializer	../web/cart/views.py	/^from cart.serializers import CartEntrySerializer, CartEntryEditSerializer$/;"	kind:namespace	line:4
+CartEntrySerializer	../web/cart/serializers.py	/^class CartEntrySerializer(serializers.ModelSerializer):$/;"	kind:class	line:7
+CartEntrySerializer	../web/cart/views.py	/^from cart.serializers import CartEntrySerializer, CartEntryEditSerializer$/;"	kind:namespace	line:4
+CartTests	../web/cart/tests.py	/^class CartTests(APITestCase):$/;"	kind:class	line:11
+DATABASES	../web/yunyanjin/settings.py	/^DATABASES = {$/;"	kind:variable	line:88
+DEBUG	../web/yunyanjin/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DISPATCHED	../web/orders/models.py	/^    DISPATCHED = 'D'$/;"	kind:variable	line:12
+EMPTY_CART	../web/message.py	/^EMPTY_CART = {'error': "购物车为空，无法操作"}$/;"	kind:variable	line:11
+EntryDetailView	../web/cart/views.py	/^class EntryDetailView(generics.RetrieveUpdateDestroyAPIView):$/;"	kind:class	line:16
+EntryListView	../web/cart/views.py	/^class EntryListView(generics.ListAPIView):$/;"	kind:class	line:7
+FINISHED	../web/orders/models.py	/^    FINISHED = 'F'$/;"	kind:variable	line:13
+FinishOrderView	../web/orders/views.py	/^class FinishOrderView(APIView):$/;"	kind:class	line:86
+Group	../web/shop/admin.py	/^from django.contrib.auth.models import Group$/;"	kind:namespace	line:2
+INSTALLED_APPS	../web/yunyanjin/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+IS_NOT_OWNER	../web/message.py	/^IS_NOT_OWNER = {'error': "非本人操作"}$/;"	kind:variable	line:9
+Item	../web/cart/tests.py	/^from shop.models import Product, Item$/;"	kind:namespace	line:7
+Item	../web/shop/admin.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:6
+Item	../web/shop/models.py	/^class Item(models.Model):$/;"	kind:class	line:36
+Item	../web/shop/serializers.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:3
+Item	../web/shop/tests.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:3
+Item	../web/shop/views.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:6
+ItemAdmin	../web/shop/admin.py	/^class ItemAdmin(admin.ModelAdmin):$/;"	kind:class	line:14
+ItemSerializer	../web/cart/serializers.py	/^from shop.serializers import ItemSerializer$/;"	kind:namespace	line:4
+ItemSerializer	../web/orders/serializers.py	/^from shop.serializers import ItemSerializer$/;"	kind:namespace	line:4
+ItemSerializer	../web/shop/serializers.py	/^class ItemSerializer(serializers.ModelSerializer):$/;"	kind:class	line:21
+LANGUAGE_CODE	../web/yunyanjin/settings.py	/^LANGUAGE_CODE = 'zh-hans'$/;"	kind:variable	line:118
+MEDIA_ROOT	../web/yunyanjin/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media\/')$/;"	kind:variable	line:140
+MEDIA_URL	../web/yunyanjin/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:138
+MIDDLEWARE	../web/yunyanjin/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:53
+Meta	../web/cart/models.py	/^    class Meta:$/;"	kind:class	line:20
+Meta	../web/cart/models.py	/^    class Meta:$/;"	kind:class	line:9
+Meta	../web/cart/serializers.py	/^    class Meta:$/;"	kind:class	line:12
+Meta	../web/cart/serializers.py	/^    class Meta:$/;"	kind:class	line:29
+Meta	../web/orders/models.py	/^    class Meta:$/;"	kind:class	line:33
+Meta	../web/orders/models.py	/^    class Meta:$/;"	kind:class	line:47
+Meta	../web/orders/serializers.py	/^    class Meta:$/;"	kind:class	line:11
+Meta	../web/orders/serializers.py	/^    class Meta:$/;"	kind:class	line:21
+Meta	../web/shop/models.py	/^    class Meta:$/;"	kind:class	line:15
+Meta	../web/shop/models.py	/^    class Meta:$/;"	kind:class	line:28
+Meta	../web/shop/models.py	/^    class Meta:$/;"	kind:class	line:44
+Meta	../web/shop/serializers.py	/^    class Meta:$/;"	kind:class	line:16
+Meta	../web/shop/serializers.py	/^    class Meta:$/;"	kind:class	line:23
+Meta	../web/shop/serializers.py	/^    class Meta:$/;"	kind:class	line:8
+Meta	../web/users/serializers.py	/^    class Meta:$/;"	kind:class	line:7
+Migration	../web/cart/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../web/cart/migrations/0002_auto_20170902_1500.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../web/orders/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../web/orders/migrations/0002_order_order_id.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../web/orders/migrations/0003_auto_20170828_1539.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../web/orders/migrations/0004_auto_20170828_1548.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../web/shop/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../web/shop/migrations/0002_auto_20170824_1042.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../web/shop/migrations/0003_auto_20170824_1534.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../web/shop/migrations/0004_auto_20170830_1009.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../web/shop/migrations/0005_auto_20170831_1622.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+NewOrderView	../web/orders/views.py	/^class NewOrderView(APIView):$/;"	kind:class	line:13
+OPERATION_SUCCEED	../web/message.py	/^OPERATION_SUCCEED = {'success': True}$/;"	kind:variable	line:5
+Order	../web/orders/admin.py	/^from orders.models import Order$/;"	kind:namespace	line:2
+Order	../web/orders/models.py	/^class Order(models.Model):$/;"	kind:class	line:7
+Order	../web/orders/serializers.py	/^from orders.models import Order, OrderItem$/;"	kind:namespace	line:3
+Order	../web/orders/views.py	/^from orders.models import Order, OrderItem$/;"	kind:namespace	line:7
+OrderAdmin	../web/orders/admin.py	/^class OrderAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+OrderItem	../web/orders/models.py	/^class OrderItem(models.Model):$/;"	kind:class	line:41
+OrderItem	../web/orders/serializers.py	/^from orders.models import Order, OrderItem$/;"	kind:namespace	line:3
+OrderItem	../web/orders/views.py	/^from orders.models import Order, OrderItem$/;"	kind:namespace	line:7
+OrderItemSerializer	../web/orders/serializers.py	/^class OrderItemSerializer(serializers.ModelSerializer):$/;"	kind:class	line:7
+OrderListView	../web/orders/views.py	/^class OrderListView(generics.ListAPIView):$/;"	kind:class	line:42
+OrderSerializer	../web/orders/serializers.py	/^class OrderSerializer(serializers.ModelSerializer):$/;"	kind:class	line:17
+OrderSerializer	../web/orders/views.py	/^from orders.serializers import OrderSerializer$/;"	kind:namespace	line:8
+OrdersConfig	../web/orders/apps.py	/^class OrdersConfig(AppConfig):$/;"	kind:class	line:4
+PAID	../web/orders/models.py	/^    PAID = 'P'$/;"	kind:variable	line:11
+PayOrderView	../web/orders/views.py	/^class PayOrderView(APIView):$/;"	kind:class	line:51
+Photo	../web/shop/admin.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:6
+Photo	../web/shop/models.py	/^class Photo(models.Model):$/;"	kind:class	line:23
+Photo	../web/shop/serializers.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:3
+Photo	../web/shop/tests.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:3
+Photo	../web/shop/views.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:6
+Product	../web/cart/tests.py	/^from shop.models import Product, Item$/;"	kind:namespace	line:7
+Product	../web/shop/admin.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:6
+Product	../web/shop/models.py	/^class Product(models.Model):$/;"	kind:class	line:4
+Product	../web/shop/serializers.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:3
+Product	../web/shop/tests.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:3
+Product	../web/shop/views.py	/^from shop.models import Product, Photo, Item$/;"	kind:namespace	line:6
+ProductAdmin	../web/shop/admin.py	/^class ProductAdmin(admin.ModelAdmin):$/;"	kind:class	line:9
+ProductDetailSerializer	../web/shop/serializers.py	/^class ProductDetailSerializer(serializers.ModelSerializer):$/;"	kind:class	line:6
+ProductDetailSerializer	../web/shop/views.py	/^from shop.serializers import (ProductDetailSerializer,$/;"	kind:namespace	line:7
+ProductDetailView	../web/shop/views.py	/^class ProductDetailView(generics.RetrieveAPIView):$/;"	kind:class	line:15
+ProductItemsView	../web/shop/views.py	/^class ProductItemsView(generics.ListAPIView):$/;"	kind:class	line:32
+ProductPhotoSerializer	../web/shop/serializers.py	/^class ProductPhotoSerializer(serializers.ModelSerializer):$/;"	kind:class	line:14
+ProductPhotosView	../web/shop/views.py	/^class ProductPhotosView(generics.ListAPIView):$/;"	kind:class	line:22
+REST_FRAMEWORK	../web/yunyanjin/settings.py	/^REST_FRAMEWORK = {$/;"	kind:variable	line:144
+ROOT_URLCONF	../web/yunyanjin/settings.py	/^ROOT_URLCONF = 'yunyanjin.urls'$/;"	kind:variable	line:64
+Response	../web/orders/views.py	/^from rest_framework.response import Response$/;"	kind:namespace	line:5
+Response	../web/shop/views.py	/^from rest_framework.response import Response$/;"	kind:namespace	line:3
+Response	../web/users/views.py	/^from rest_framework.response import Response$/;"	kind:namespace	line:9
+SECRET_KEY	../web/yunyanjin/settings.py	/^SECRET_KEY = 'u5_#1dj7w3t8q*9)!s4kc@(g@nv$woznrp*n5ktz$!op774d_r'$/;"	kind:variable	line:23
+STATIC_ROOT	../web/yunyanjin/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'static\/')$/;"	kind:variable	line:134
+STATIC_URL	../web/yunyanjin/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:132
+STATUS_CHOICES	../web/orders/models.py	/^    STATUS_CHOICES = ($/;"	kind:variable	line:16
+ShopConfig	../web/shop/apps.py	/^class ShopConfig(AppConfig):$/;"	kind:class	line:4
+ShopTests	../web/shop/tests.py	/^class ShopTests(APITestCase):$/;"	kind:class	line:6
+TEMPLATES	../web/yunyanjin/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:66
+TIME_ZONE	../web/yunyanjin/settings.py	/^TIME_ZONE = 'Asia\/Shanghai'$/;"	kind:variable	line:120
+TemplateView	../web/yunyanjin/urls.py	/^from django.views.generic import TemplateView$/;"	kind:namespace	line:5
+TestCase	../web/orders/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	../web/users/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+Token	../web/shop/admin.py	/^from rest_framework.authtoken.models import Token$/;"	kind:namespace	line:4
+Token	../web/users/views.py	/^from rest_framework.authtoken.models import Token$/;"	kind:namespace	line:5
+TokenAuthentication	../web/users/views.py	/^from rest_framework.authentication import TokenAuthentication$/;"	kind:namespace	line:7
+UNPAID	../web/orders/models.py	/^    UNPAID = 'U'$/;"	kind:variable	line:10
+USE_I18N	../web/yunyanjin/settings.py	/^USE_I18N = True$/;"	kind:variable	line:122
+USE_L10N	../web/yunyanjin/settings.py	/^USE_L10N = True$/;"	kind:variable	line:124
+USE_TZ	../web/yunyanjin/settings.py	/^USE_TZ = False$/;"	kind:variable	line:126
+User	../web/cart/models.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:2
+User	../web/cart/tests.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:2
+User	../web/orders/models.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:4
+User	../web/users/serializers.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:1
+User	../web/users/views.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:1
+UserChangePasswordView	../web/users/views.py	/^class UserChangePasswordView(APIView):$/;"	kind:class	line:37
+UserLoginView	../web/users/views.py	/^class UserLoginView(APIView):$/;"	kind:class	line:15
+UserRegistrationView	../web/users/views.py	/^class UserRegistrationView(generics.CreateAPIView):$/;"	kind:class	line:30
+UserSerializer	../web/users/serializers.py	/^class UserSerializer(serializers.ModelSerializer):$/;"	kind:class	line:5
+UserSerializer	../web/users/views.py	/^from users.serializers import UserSerializer$/;"	kind:namespace	line:12
+UsersConfig	../web/users/apps.py	/^class UsersConfig(AppConfig):$/;"	kind:class	line:4
+WRONG_ORDER_STATUS	../web/message.py	/^WRONG_ORDER_STATUS = {'error': "订单状态错误"}$/;"	kind:variable	line:7
+WSGI_APPLICATION	../web/yunyanjin/settings.py	/^WSGI_APPLICATION = 'yunyanjin.wsgi.application'$/;"	kind:variable	line:82
+__init__.py	../web/cart/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/cart/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/orders/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/orders/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/shop/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/shop/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/users/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/users/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../web/yunyanjin/__init__.py	1;"	kind:file	line:1
+__str__	../web/orders/models.py	/^    def __str__(self):$/;"	kind:member	line:37
+__str__	../web/shop/models.py	/^    def __str__(self):$/;"	kind:member	line:19
+__str__	../web/shop/models.py	/^    def __str__(self):$/;"	kind:member	line:32
+__str__	../web/shop/models.py	/^    def __str__(self):$/;"	kind:member	line:49
+admin	../web/orders/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../web/shop/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../web/users/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../web/yunyanjin/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:2
+admin.py	../web/orders/admin.py	1;"	kind:file	line:1
+admin.py	../web/shop/admin.py	1;"	kind:file	line:1
+admin.py	../web/users/admin.py	1;"	kind:file	line:1
+application	../web/yunyanjin/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../web/cart/apps.py	1;"	kind:file	line:1
+apps.py	../web/orders/apps.py	1;"	kind:file	line:1
+apps.py	../web/shop/apps.py	1;"	kind:file	line:1
+apps.py	../web/users/apps.py	1;"	kind:file	line:1
+blank	../web/shop/models.py	/^                              blank=True,$/;"	kind:variable	line:8
+cart	../web/cart/models.py	/^    cart = models.ForeignKey(Cart, related_name='entries', verbose_name='购物车')$/;"	kind:variable	line:16
+check_password	../web/users/views.py	/^from django.contrib.auth.hashers import check_password$/;"	kind:namespace	line:2
+choices	../web/orders/models.py	/^                              choices=STATUS_CHOICES,$/;"	kind:variable	line:28
+ckeditor	../web/shop/migrations/0004_auto_20170830_1009.py	/^import ckeditor.fields$/;"	kind:namespace	line:5
+create	../web/users/serializers.py	/^    def create(self, validated_data):$/;"	kind:member	line:12
+created	../web/shop/models.py	/^    created = models.DateTimeField(auto_now_add=True, verbose_name='上架时间')$/;"	kind:variable	line:13
+db	../web/cart/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+db	../web/cart/migrations/0002_auto_20170902_1500.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+db	../web/orders/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+db	../web/shop/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+default_app_config	../web/cart/__init__.py	/^default_app_config = 'cart.apps.CartConfig'/;"	kind:variable	line:1
+default_app_config	../web/orders/__init__.py	/^default_app_config = 'orders.apps.OrdersConfig'/;"	kind:variable	line:1
+default_app_config	../web/shop/__init__.py	/^default_app_config = 'shop.apps.ShopConfig'/;"	kind:variable	line:1
+deletion	../web/cart/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	../web/cart/migrations/0002_auto_20170902_1500.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+deletion	../web/orders/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	../web/shop/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+dependencies	../web/cart/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	../web/cart/migrations/0002_auto_20170902_1500.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../web/orders/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	../web/orders/migrations/0002_order_order_id.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../web/orders/migrations/0003_auto_20170828_1539.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../web/orders/migrations/0004_auto_20170828_1548.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../web/shop/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../web/shop/migrations/0002_auto_20170824_1042.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../web/shop/migrations/0003_auto_20170824_1534.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../web/shop/migrations/0004_auto_20170830_1009.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../web/shop/migrations/0005_auto_20170831_1622.py	/^    dependencies = [$/;"	kind:variable	line:10
+description	../web/shop/models.py	/^    description = models.CharField(max_length=20, blank=True, verbose_name='项目描述')$/;"	kind:variable	line:39
+description	../web/shop/models.py	/^    description = models.TextField(blank=True, verbose_name='简介')$/;"	kind:variable	line:10
+destination	../web/orders/models.py	/^    destination = models.CharField(max_length=100, verbose_name='收货地址')$/;"	kind:variable	line:30
+django	../web/cart/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	../web/cart/migrations/0002_auto_20170902_1500.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+django	../web/manage.py	/^            import django$/;"	kind:namespace	line:14
+django	../web/orders/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	../web/shop/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+editable	../web/orders/models.py	/^                                editable=False,$/;"	kind:variable	line:24
+effect	../web/shop/models.py	/^    effect = models.TextField(blank=True, verbose_name='用途功效')$/;"	kind:variable	line:12
+execute_from_command_line	../web/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+field	../web/orders/migrations/0002_order_order_id.py	/^            field=models.UUIDField(default='8a6fb3cb1d164048a1e88de035cc6350', editable=False, verbose_name='订单编号'),$/;"	kind:variable	line:18
+field	../web/orders/migrations/0003_auto_20170828_1539.py	/^            field=models.UUIDField(editable=False, verbose_name='订单编号'),$/;"	kind:variable	line:18
+field	../web/orders/migrations/0004_auto_20170828_1548.py	/^            field=models.UUIDField(editable=False, primary_key=True, serialize=False, verbose_name='订单编号'),$/;"	kind:variable	line:22
+field	../web/shop/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='items', to='shop.Product', verbose_name='商品'),$/;"	kind:variable	line:64
+field	../web/shop/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='photos', to='shop.Product', verbose_name='商品'),$/;"	kind:variable	line:59
+field	../web/shop/migrations/0002_auto_20170824_1042.py	/^            field=models.CharField(blank=True, max_length=20, verbose_name='项目描述'),$/;"	kind:variable	line:22
+field	../web/shop/migrations/0004_auto_20170830_1009.py	/^            field=ckeditor.fields.RichTextField(blank=True, verbose_name='详细信息'),$/;"	kind:variable	line:19
+field	../web/shop/migrations/0005_auto_20170831_1622.py	/^            field=models.TextField(blank=True, verbose_name='用途功效'),$/;"	kind:variable	line:22
+field	../web/shop/migrations/0005_auto_20170831_1622.py	/^            field=models.TextField(blank=True, verbose_name='营养成分'),$/;"	kind:variable	line:27
+fields	../web/cart/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:22
+fields	../web/cart/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:33
+fields	../web/cart/migrations/0002_auto_20170902_1500.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../web/cart/serializers.py	/^        fields = ('id', 'item', 'quantity', 'photo')$/;"	kind:variable	line:14
+fields	../web/cart/serializers.py	/^        fields = ('quantity',)$/;"	kind:variable	line:31
+fields	../web/orders/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:22
+fields	../web/orders/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:36
+fields	../web/orders/serializers.py	/^        fields = ('item', 'quantity')$/;"	kind:variable	line:13
+fields	../web/orders/serializers.py	/^        fields = ('order_id', 'items', 'status', 'destination', 'phone')$/;"	kind:variable	line:23
+fields	../web/shop/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../web/shop/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:32
+fields	../web/shop/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:43
+fields	../web/shop/migrations/0004_auto_20170830_1009.py	/^import ckeditor.fields$/;"	kind:namespace	line:5
+fields	../web/shop/serializers.py	/^        fields = ('id', 'image')$/;"	kind:variable	line:18
+fields	../web/shop/serializers.py	/^        fields = ('id', 'name', 'image', 'description',$/;"	kind:variable	line:10
+fields	../web/shop/serializers.py	/^        fields = ('id', 'product', 'price', 'description',$/;"	kind:variable	line:25
+fields	../web/users/serializers.py	/^        fields = ('username', 'password',)$/;"	kind:variable	line:9
+generics	../web/cart/views.py	/^from rest_framework import generics$/;"	kind:namespace	line:1
+generics	../web/orders/views.py	/^from rest_framework import generics, status$/;"	kind:namespace	line:3
+generics	../web/shop/views.py	/^from rest_framework import generics, status$/;"	kind:namespace	line:1
+generics	../web/users/views.py	/^from rest_framework import generics, status$/;"	kind:namespace	line:4
+get_photo	../web/cart/serializers.py	/^    def get_photo(self, cart_entry):$/;"	kind:member	line:17
+get_queryset	../web/cart/views.py	/^    def get_queryset(self):$/;"	kind:member	line:11
+get_queryset	../web/orders/views.py	/^    def get_queryset(self):$/;"	kind:member	line:47
+get_queryset	../web/shop/views.py	/^    def get_queryset(self):$/;"	kind:member	line:27
+get_queryset	../web/shop/views.py	/^    def get_queryset(self):$/;"	kind:member	line:37
+get_wsgi_application	../web/yunyanjin/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+image	../web/shop/models.py	/^    image = models.ImageField(upload_to='products\/', blank=True, verbose_name='照片')$/;"	kind:variable	line:26
+image	../web/shop/models.py	/^    image = models.ImageField(upload_to='products\/',$/;"	kind:variable	line:7
+include	../web/yunyanjin/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:1
+initial	../web/cart/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+initial	../web/orders/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+initial	../web/shop/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+item	../web/cart/models.py	/^    item = models.ForeignKey('shop.item', verbose_name='购买项目')$/;"	kind:variable	line:17
+item	../web/cart/serializers.py	/^    item = ItemSerializer()$/;"	kind:variable	line:9
+item	../web/orders/models.py	/^    item = models.ForeignKey('shop.item', verbose_name='购买项目')$/;"	kind:variable	line:44
+item	../web/orders/serializers.py	/^    item = ItemSerializer()$/;"	kind:variable	line:9
+items	../web/orders/serializers.py	/^    items = OrderItemSerializer(many=True, read_only=True)$/;"	kind:variable	line:19
+list_display	../web/orders/admin.py	/^    list_display = ('order_id', 'user', 'status', 'destination')$/;"	kind:variable	line:7
+list_display	../web/shop/admin.py	/^    list_display = ('name', 'created')$/;"	kind:variable	line:11
+list_display	../web/shop/admin.py	/^    list_display = ('product', 'description', 'price', 'unit', 'stock')$/;"	kind:variable	line:16
+list_filter	../web/orders/admin.py	/^    list_filter = ('status',)$/;"	kind:variable	line:9
+manage.py	../web/manage.py	1;"	kind:file	line:1
+message	../web/orders/views.py	/^import message$/;"	kind:namespace	line:10
+message	../web/shop/views.py	/^import message$/;"	kind:namespace	line:12
+message.py	../web/message.py	1;"	kind:file	line:1
+migrations	../web/cart/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+migrations	../web/cart/migrations/0002_auto_20170902_1500.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../web/orders/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+migrations	../web/orders/migrations/0002_order_order_id.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../web/orders/migrations/0003_auto_20170828_1539.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../web/orders/migrations/0004_auto_20170828_1548.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../web/shop/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../web/shop/migrations/0002_auto_20170824_1042.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+migrations	../web/shop/migrations/0003_auto_20170824_1534.py	/^from django.db import migrations$/;"	kind:namespace	line:5
+migrations	../web/shop/migrations/0004_auto_20170830_1009.py	/^from django.db import migrations$/;"	kind:namespace	line:6
+migrations	../web/shop/migrations/0005_auto_20170831_1622.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+model	../web/cart/serializers.py	/^        model = CartEntry$/;"	kind:variable	line:13
+model	../web/cart/serializers.py	/^        model = CartEntry$/;"	kind:variable	line:30
+model	../web/orders/serializers.py	/^        model = Order$/;"	kind:variable	line:22
+model	../web/orders/serializers.py	/^        model = OrderItem$/;"	kind:variable	line:12
+model	../web/shop/serializers.py	/^        model = Item$/;"	kind:variable	line:24
+model	../web/shop/serializers.py	/^        model = Photo$/;"	kind:variable	line:17
+model	../web/shop/serializers.py	/^        model = Product$/;"	kind:variable	line:9
+model	../web/users/serializers.py	/^        model = User$/;"	kind:variable	line:8
+model_name	../web/cart/migrations/0002_auto_20170902_1500.py	/^            model_name='cartitem',$/;"	kind:variable	line:31
+model_name	../web/cart/migrations/0002_auto_20170902_1500.py	/^            model_name='cartitem',$/;"	kind:variable	line:35
+model_name	../web/orders/migrations/0002_order_order_id.py	/^            model_name='order',$/;"	kind:variable	line:16
+model_name	../web/orders/migrations/0003_auto_20170828_1539.py	/^            model_name='order',$/;"	kind:variable	line:16
+model_name	../web/orders/migrations/0004_auto_20170828_1548.py	/^            model_name='order',$/;"	kind:variable	line:16
+model_name	../web/orders/migrations/0004_auto_20170828_1548.py	/^            model_name='order',$/;"	kind:variable	line:20
+model_name	../web/shop/migrations/0001_initial.py	/^            model_name='item',$/;"	kind:variable	line:62
+model_name	../web/shop/migrations/0001_initial.py	/^            model_name='photo',$/;"	kind:variable	line:57
+model_name	../web/shop/migrations/0002_auto_20170824_1042.py	/^            model_name='item',$/;"	kind:variable	line:20
+model_name	../web/shop/migrations/0004_auto_20170830_1009.py	/^            model_name='product',$/;"	kind:variable	line:17
+model_name	../web/shop/migrations/0005_auto_20170831_1622.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	../web/shop/migrations/0005_auto_20170831_1622.py	/^            model_name='product',$/;"	kind:variable	line:20
+model_name	../web/shop/migrations/0005_auto_20170831_1622.py	/^            model_name='product',$/;"	kind:variable	line:25
+models	../web/cart/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	../web/cart/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	../web/cart/migrations/0002_auto_20170902_1500.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/cart/migrations/0002_auto_20170902_1500.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+models	../web/cart/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../web/orders/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	../web/orders/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	../web/orders/migrations/0002_order_order_id.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/orders/migrations/0003_auto_20170828_1539.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/orders/migrations/0004_auto_20170828_1548.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/orders/models.py	/^from django.db import models$/;"	kind:namespace	line:3
+models	../web/shop/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/shop/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+models	../web/shop/migrations/0002_auto_20170824_1042.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/shop/migrations/0005_auto_20170831_1622.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../web/shop/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../web/users/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../web/cart/models.py	1;"	kind:file	line:1
+models.py	../web/orders/models.py	1;"	kind:file	line:1
+models.py	../web/shop/models.py	1;"	kind:file	line:1
+models.py	../web/users/models.py	1;"	kind:file	line:1
+name	../web/cart/apps.py	/^    name = 'cart'$/;"	kind:variable	line:5
+name	../web/cart/migrations/0001_initial.py	/^            name='Cart',$/;"	kind:variable	line:21
+name	../web/cart/migrations/0001_initial.py	/^            name='CartItem',$/;"	kind:variable	line:32
+name	../web/cart/migrations/0002_auto_20170902_1500.py	/^            name='CartEntry',$/;"	kind:variable	line:18
+name	../web/cart/migrations/0002_auto_20170902_1500.py	/^            name='CartItem',$/;"	kind:variable	line:39
+name	../web/cart/migrations/0002_auto_20170902_1500.py	/^            name='cart',$/;"	kind:variable	line:32
+name	../web/cart/migrations/0002_auto_20170902_1500.py	/^            name='item',$/;"	kind:variable	line:36
+name	../web/cart/urls.py	/^        name='entry-detail'$/;"	kind:variable	line:14
+name	../web/cart/urls.py	/^        name='entry-list'$/;"	kind:variable	line:9
+name	../web/orders/apps.py	/^    name = 'orders'$/;"	kind:variable	line:5
+name	../web/orders/migrations/0001_initial.py	/^            name='Order',$/;"	kind:variable	line:21
+name	../web/orders/migrations/0001_initial.py	/^            name='OrderItem',$/;"	kind:variable	line:35
+name	../web/orders/migrations/0002_order_order_id.py	/^            name='order_id',$/;"	kind:variable	line:17
+name	../web/orders/migrations/0003_auto_20170828_1539.py	/^            name='order_id',$/;"	kind:variable	line:17
+name	../web/orders/migrations/0004_auto_20170828_1548.py	/^            name='id',$/;"	kind:variable	line:17
+name	../web/orders/migrations/0004_auto_20170828_1548.py	/^            name='order_id',$/;"	kind:variable	line:21
+name	../web/orders/urls.py	/^        name='cancel'$/;"	kind:variable	line:24
+name	../web/orders/urls.py	/^        name='finish'$/;"	kind:variable	line:29
+name	../web/orders/urls.py	/^        name='new-order'$/;"	kind:variable	line:14
+name	../web/orders/urls.py	/^        name='order-list'$/;"	kind:variable	line:9
+name	../web/orders/urls.py	/^        name='pay'$/;"	kind:variable	line:19
+name	../web/shop/apps.py	/^    name = 'shop'$/;"	kind:variable	line:5
+name	../web/shop/migrations/0001_initial.py	/^            name='Item',$/;"	kind:variable	line:18
+name	../web/shop/migrations/0001_initial.py	/^            name='Photo',$/;"	kind:variable	line:31
+name	../web/shop/migrations/0001_initial.py	/^            name='Product',$/;"	kind:variable	line:42
+name	../web/shop/migrations/0001_initial.py	/^            name='product',$/;"	kind:variable	line:58
+name	../web/shop/migrations/0001_initial.py	/^            name='product',$/;"	kind:variable	line:63
+name	../web/shop/migrations/0002_auto_20170824_1042.py	/^            name='description',$/;"	kind:variable	line:21
+name	../web/shop/migrations/0002_auto_20170824_1042.py	/^            name='item',$/;"	kind:variable	line:16
+name	../web/shop/migrations/0003_auto_20170824_1534.py	/^            name='item',$/;"	kind:variable	line:16
+name	../web/shop/migrations/0004_auto_20170830_1009.py	/^            name='info',$/;"	kind:variable	line:18
+name	../web/shop/migrations/0005_auto_20170831_1622.py	/^            name='effect',$/;"	kind:variable	line:21
+name	../web/shop/migrations/0005_auto_20170831_1622.py	/^            name='info',$/;"	kind:variable	line:17
+name	../web/shop/migrations/0005_auto_20170831_1622.py	/^            name='nutrition',$/;"	kind:variable	line:26
+name	../web/shop/models.py	/^    name = models.CharField(max_length=20, db_index=True, verbose_name='名称')$/;"	kind:variable	line:6
+name	../web/shop/urls.py	/^        name='add-to-cart'$/;"	kind:variable	line:24
+name	../web/shop/urls.py	/^        name='product-detail'$/;"	kind:variable	line:9
+name	../web/shop/urls.py	/^        name='product-items'$/;"	kind:variable	line:19
+name	../web/shop/urls.py	/^        name='product-photos'$/;"	kind:variable	line:14
+name	../web/users/apps.py	/^    name = 'users'$/;"	kind:variable	line:5
+name	../web/users/urls.py	/^        name='change-password'$/;"	kind:variable	line:18
+name	../web/users/urls.py	/^        name='login'$/;"	kind:variable	line:8
+name	../web/users/urls.py	/^        name='register'$/;"	kind:variable	line:13
+nutrition	../web/shop/models.py	/^    nutrition = models.TextField(blank=True, verbose_name='营养成分')$/;"	kind:variable	line:11
+operations	../web/cart/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:19
+operations	../web/cart/migrations/0002_auto_20170902_1500.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../web/orders/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:19
+operations	../web/orders/migrations/0002_order_order_id.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../web/orders/migrations/0003_auto_20170828_1539.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../web/orders/migrations/0004_auto_20170828_1548.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../web/shop/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../web/shop/migrations/0002_auto_20170824_1042.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../web/shop/migrations/0003_auto_20170824_1534.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../web/shop/migrations/0004_auto_20170830_1009.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../web/shop/migrations/0005_auto_20170831_1622.py	/^    operations = [$/;"	kind:variable	line:14
+options	../web/cart/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:26
+options	../web/cart/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:39
+options	../web/cart/migrations/0002_auto_20170902_1500.py	/^            options={$/;"	kind:variable	line:25
+options	../web/orders/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:29
+options	../web/orders/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:42
+options	../web/shop/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:25
+options	../web/shop/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:36
+options	../web/shop/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:51
+options	../web/shop/migrations/0002_auto_20170824_1042.py	/^            options={'ordering': ('price',), 'verbose_name': '商品购买项目', 'verbose_name_plural': '商品购买项目'},$/;"	kind:variable	line:17
+options	../web/shop/migrations/0003_auto_20170824_1534.py	/^            options={'ordering': ('price',), 'verbose_name': '购买项目', 'verbose_name_plural': '购买项目'},$/;"	kind:variable	line:17
+order	../web/orders/models.py	/^    order = models.ForeignKey(Order, related_name='items', verbose_name='订单')$/;"	kind:variable	line:43
+order_id	../web/orders/models.py	/^    order_id = models.UUIDField(primary_key=True,$/;"	kind:variable	line:23
+ordering	../web/shop/models.py	/^        ordering = ('price',)$/;"	kind:variable	line:45
+os	../web/manage.py	/^import os$/;"	kind:namespace	line:2
+os	../web/yunyanjin/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../web/yunyanjin/wsgi.py	/^import os$/;"	kind:namespace	line:10
+permission_classes	../web/shop/views.py	/^    permission_classes = (AllowAny,)$/;"	kind:variable	line:19
+permission_classes	../web/shop/views.py	/^    permission_classes = (AllowAny,)$/;"	kind:variable	line:25
+permission_classes	../web/shop/views.py	/^    permission_classes = (AllowAny,)$/;"	kind:variable	line:35
+permission_classes	../web/users/views.py	/^    permission_classes = (AllowAny,)$/;"	kind:variable	line:20
+permission_classes	../web/users/views.py	/^    permission_classes = (AllowAny,)$/;"	kind:variable	line:34
+phone	../web/orders/models.py	/^    phone = models.CharField(max_length=11, verbose_name='联系人电话')$/;"	kind:variable	line:31
+photo	../web/cart/serializers.py	/^    photo = serializers.SerializerMethodField()$/;"	kind:variable	line:10
+post	../web/orders/views.py	/^    def post(self, request):$/;"	kind:member	line:16
+post	../web/orders/views.py	/^    def post(self, request):$/;"	kind:member	line:54
+post	../web/orders/views.py	/^    def post(self, request):$/;"	kind:member	line:72
+post	../web/orders/views.py	/^    def post(self, request):$/;"	kind:member	line:89
+post	../web/shop/views.py	/^    def post(self, request):$/;"	kind:member	line:44
+post	../web/users/views.py	/^    def post(self, request):$/;"	kind:member	line:22
+post	../web/users/views.py	/^    def post(self, request):$/;"	kind:member	line:40
+price	../web/shop/models.py	/^    price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='价格')$/;"	kind:variable	line:40
+product	../web/shop/models.py	/^    product = models.ForeignKey(Product, related_name='items', verbose_name='商品')$/;"	kind:variable	line:38
+product	../web/shop/models.py	/^    product = models.ForeignKey(Product, related_name='photos', verbose_name='商品')$/;"	kind:variable	line:25
+quantity	../web/cart/models.py	/^    quantity = models.PositiveIntegerField(verbose_name='数量')$/;"	kind:variable	line:18
+quantity	../web/orders/models.py	/^    quantity = models.PositiveIntegerField(verbose_name='数量')$/;"	kind:variable	line:45
+queryset	../web/cart/views.py	/^    queryset = CartEntry.objects.all()$/;"	kind:variable	line:18
+queryset	../web/shop/views.py	/^    queryset = Product.objects.all()$/;"	kind:variable	line:17
+queryset	../web/users/views.py	/^    queryset = User.objects.all()$/;"	kind:variable	line:32
+read_only_field	../web/cart/serializers.py	/^        read_only_field = ('item', 'photo')$/;"	kind:variable	line:15
+read_only_fields	../web/orders/serializers.py	/^        read_only_fields = ('item',)$/;"	kind:variable	line:14
+reverse	../web/cart/tests.py	/^from django.urls import reverse$/;"	kind:namespace	line:1
+search_fields	../web/orders/admin.py	/^    search_fields = ('order_id', 'user', 'destination')$/;"	kind:variable	line:8
+serializer_class	../web/cart/views.py	/^    serializer_class = CartEntryEditSerializer$/;"	kind:variable	line:19
+serializer_class	../web/cart/views.py	/^    serializer_class = CartEntrySerializer$/;"	kind:variable	line:9
+serializer_class	../web/orders/views.py	/^    serializer_class = OrderSerializer$/;"	kind:variable	line:45
+serializer_class	../web/shop/views.py	/^    serializer_class = ItemSerializer$/;"	kind:variable	line:34
+serializer_class	../web/shop/views.py	/^    serializer_class = ProductDetailSerializer$/;"	kind:variable	line:18
+serializer_class	../web/shop/views.py	/^    serializer_class = ProductPhotoSerializer$/;"	kind:variable	line:24
+serializer_class	../web/users/views.py	/^    serializer_class = AuthTokenSerializer$/;"	kind:variable	line:19
+serializer_class	../web/users/views.py	/^    serializer_class = UserSerializer$/;"	kind:variable	line:33
+serializers	../web/cart/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers	../web/orders/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers	../web/shop/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers	../web/users/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:2
+serializers.py	../web/cart/serializers.py	1;"	kind:file	line:1
+serializers.py	../web/orders/serializers.py	1;"	kind:file	line:1
+serializers.py	../web/shop/serializers.py	1;"	kind:file	line:1
+serializers.py	../web/users/serializers.py	1;"	kind:file	line:1
+setUp	../web/cart/tests.py	/^    def setUp(self):$/;"	kind:member	line:14
+setUp	../web/shop/tests.py	/^    def setUp(self):$/;"	kind:member	line:8
+settings	../web/cart/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	../web/orders/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	../web/yunyanjin/urls.py	/^from django.conf import settings$/;"	kind:namespace	line:3
+settings.py	../web/yunyanjin/settings.py	1;"	kind:file	line:1
+static	../web/yunyanjin/urls.py	/^from django.conf.urls.static import static$/;"	kind:namespace	line:4
+status	../web/cart/tests.py	/^from rest_framework import status$/;"	kind:namespace	line:4
+status	../web/orders/models.py	/^    status = models.CharField(max_length=1,$/;"	kind:variable	line:27
+status	../web/orders/views.py	/^from rest_framework import generics, status$/;"	kind:namespace	line:3
+status	../web/shop/views.py	/^from rest_framework import generics, status$/;"	kind:namespace	line:1
+status	../web/users/views.py	/^from rest_framework import generics, status$/;"	kind:namespace	line:4
+stock	../web/shop/models.py	/^    stock = models.PositiveIntegerField(verbose_name='库存')$/;"	kind:variable	line:42
+sys	../web/manage.py	/^import sys$/;"	kind:namespace	line:3
+test_cart_entry_lifecycle	../web/cart/tests.py	/^    def test_cart_entry_lifecycle(self):$/;"	kind:member	line:38
+tests.py	../web/cart/tests.py	1;"	kind:file	line:1
+tests.py	../web/orders/tests.py	1;"	kind:file	line:1
+tests.py	../web/shop/tests.py	1;"	kind:file	line:1
+tests.py	../web/users/tests.py	1;"	kind:file	line:1
+unicode_literals	../web/cart/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/cart/migrations/0002_auto_20170902_1500.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/orders/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/orders/migrations/0002_order_order_id.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/orders/migrations/0003_auto_20170828_1539.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/orders/migrations/0004_auto_20170828_1548.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/shop/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/shop/migrations/0002_auto_20170824_1042.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/shop/migrations/0003_auto_20170824_1534.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/shop/migrations/0004_auto_20170830_1009.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	../web/shop/migrations/0005_auto_20170831_1622.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unit	../web/shop/models.py	/^    unit = models.CharField(max_length=10, verbose_name='单位')$/;"	kind:variable	line:41
+update	../web/users/serializers.py	/^    def update(self, instance, validated_data):$/;"	kind:member	line:18
+url	../web/cart/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../web/orders/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../web/shop/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../web/users/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../web/yunyanjin/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:1
+urlpatterns	../web/cart/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urlpatterns	../web/orders/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urlpatterns	../web/shop/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urlpatterns	../web/users/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	../web/yunyanjin/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urls.py	../web/cart/urls.py	1;"	kind:file	line:1
+urls.py	../web/orders/urls.py	1;"	kind:file	line:1
+urls.py	../web/shop/urls.py	1;"	kind:file	line:1
+urls.py	../web/users/urls.py	1;"	kind:file	line:1
+urls.py	../web/yunyanjin/urls.py	1;"	kind:file	line:1
+user	../web/cart/models.py	/^    user = models.OneToOneField(User, verbose_name='用户')$/;"	kind:variable	line:7
+user	../web/orders/models.py	/^    user = models.ForeignKey(User, related_name='orders', verbose_name='用户')$/;"	kind:variable	line:26
+uuid	../web/orders/models.py	/^import uuid$/;"	kind:namespace	line:1
+uuid	../web/orders/views.py	/^import uuid$/;"	kind:namespace	line:1
+verbose_name	../web/cart/apps.py	/^    verbose_name = '购物车'$/;"	kind:variable	line:6
+verbose_name	../web/cart/models.py	/^        verbose_name = "购物车"$/;"	kind:variable	line:10
+verbose_name	../web/cart/models.py	/^        verbose_name = "购物车条目"$/;"	kind:variable	line:21
+verbose_name	../web/orders/apps.py	/^    verbose_name = '订单管理'$/;"	kind:variable	line:6
+verbose_name	../web/orders/models.py	/^                                verbose_name='订单编号')$/;"	kind:variable	line:25
+verbose_name	../web/orders/models.py	/^                              verbose_name='状态')$/;"	kind:variable	line:29
+verbose_name	../web/orders/models.py	/^        verbose_name = "订单"$/;"	kind:variable	line:34
+verbose_name	../web/orders/models.py	/^        verbose_name = "订单条目"$/;"	kind:variable	line:48
+verbose_name	../web/shop/apps.py	/^    verbose_name = '在线商城'$/;"	kind:variable	line:6
+verbose_name	../web/shop/models.py	/^                              verbose_name='照片')$/;"	kind:variable	line:9
+verbose_name	../web/shop/models.py	/^        verbose_name = "商品"$/;"	kind:variable	line:16
+verbose_name	../web/shop/models.py	/^        verbose_name = "商品照片"$/;"	kind:variable	line:29
+verbose_name	../web/shop/models.py	/^        verbose_name = "购买项目"$/;"	kind:variable	line:46
+verbose_name_plural	../web/cart/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:11
+verbose_name_plural	../web/cart/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:22
+verbose_name_plural	../web/orders/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:35
+verbose_name_plural	../web/orders/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:49
+verbose_name_plural	../web/shop/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:17
+verbose_name_plural	../web/shop/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:30
+verbose_name_plural	../web/shop/models.py	/^        verbose_name_plural = verbose_name$/;"	kind:variable	line:47
+views	../web/cart/urls.py	/^from cart import views$/;"	kind:namespace	line:3
+views	../web/orders/urls.py	/^from orders import views$/;"	kind:namespace	line:3
+views	../web/shop/urls.py	/^from shop import views$/;"	kind:namespace	line:3
+views	../web/users/urls.py	/^from users import views$/;"	kind:namespace	line:2
+views.py	../web/cart/views.py	1;"	kind:file	line:1
+views.py	../web/orders/views.py	1;"	kind:file	line:1
+views.py	../web/shop/views.py	1;"	kind:file	line:1
+views.py	../web/users/views.py	1;"	kind:file	line:1
+write_only_fields	../web/users/serializers.py	/^        write_only_fields = ('password',)$/;"	kind:variable	line:10
+wsgi.py	../web/yunyanjin/wsgi.py	1;"	kind:file	line:1

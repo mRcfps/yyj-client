@@ -1,18 +1,13 @@
 version: '2'
 services:
-  nginx:
-    image: nginx
+  proxy:
+    build: ./proxy
     ports:
-      - "8000:8000"
-    volumes:
-      - ./src:/src
-      - ./config/nginx:/etc/nginx/conf.d
+      - "8080:80"
     depends_on:
       - web
   web:
-    build: .
-    command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn mydjango.wsgi -b 0.0.0.0:8000"
-    volumes:
-      - ./src:/src
+    build: ./web
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn yunyanjin.wsgi -b 0.0.0.0:8000"
     expose:
       - "8000"

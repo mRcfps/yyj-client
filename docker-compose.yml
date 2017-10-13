@@ -3,7 +3,7 @@ services:
   proxy:
     build: ./proxy
     ports:
-      - "80:80"
+      - "8080:80"
     volumes:
       - ./web:/web
     depends_on:

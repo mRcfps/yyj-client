@@ -1,5 +1,5 @@
 FROM nginx:1.13
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY yunyanjin.conf /etc/nginx/conf.d/default.conf
 
-COPY . /client
+COPY client /client

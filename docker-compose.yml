@@ -10,8 +10,6 @@ services:
       - web
   web:
     build: ./web
-    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata fixture.json && gunicorn yunyanjin.wsgi -b 0.0.0.0:8000"
+    # command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py loaddata fixture.json && gunicorn yunyanjin.wsgi -b 0.0.0.0:8000"
     volumes:
       - ./web:/web
-    expose:
-      - "8000"

@@ -5,7 +5,7 @@ ENV PYTHONUNBUFFERED 1
 RUN mkdir /web
 WORKDIR /web
 ADD . /web/
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt \
+RUN pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements.txt \
     && python manage.py makemigrations \
     && python manage.py migrate \
     && python manage.py loaddata fixture.json
